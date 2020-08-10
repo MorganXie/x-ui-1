@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="topNav">
-      <div class="logo"></div>
-      <div class="menu"></div>
-    </div>
+    <top-nav/>
     <div class="content">
       <aside>侧边栏</aside>
       <main>主要内容</main>
@@ -12,8 +9,10 @@
 </template>
 
 <script>
+    import TopNav from "../components/topNav"
     export default {
-        name: "Doc"
+        name: "Doc",
+        components: {TopNav}
     }
 </script>
 
