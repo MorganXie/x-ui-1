@@ -32,7 +32,7 @@
         name: "Doc",
         components: {TopNav},
         setup(){
-            const asideVisible = inject<Ref<Boolean>>('xxx')
+            const asideVisible = inject<Ref<Boolean>>('asideVisible')
             return {asideVisible}
         }
     }
