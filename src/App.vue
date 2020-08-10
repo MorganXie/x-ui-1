@@ -9,7 +9,8 @@
         name: 'App',
         components: {},
         setup() {
-            const asideVisible = ref(false)
+            const clientWidth = document.documentElement.clientWidth;
+            const asideVisible = ref(clientWidth > 500);
             provide('asideVisible',asideVisible)
         }
     }
