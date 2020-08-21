@@ -32,6 +32,7 @@ button:focus {
 }
 
 button {
+  cursor: pointer;
   height: $switchHeight;
   width: $switchHeight*2;
   border: none;
