@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Switch  v-model:value="defaultVal"></Switch>
+    <Switch  v-model:value="defaultVal" active-color="" inactive-color="#ea0432"></Switch>
   </div>
 </template>
 
 <script>
-import Switch from '../lib/switch.vue'
+import Switch from '../lib/Switch.vue'
 import {ref} from 'vue'
 
 export default {
